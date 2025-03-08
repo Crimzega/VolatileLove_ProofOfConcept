@@ -1,2 +1,18 @@
 # Auto detect text files and perform LF normalization
-* text=auto
+* text=auto eol=lf
+
+*.asmdef text
+*.asset text
+*.cginc text
+*.cs text
+*.inputactions text
+*.json text
+*.mat text
+*.md text
+*.meta text
+*.prefab text
+*.shader text
+*.txt text
+
+*.fbx binary
+*.png binary
